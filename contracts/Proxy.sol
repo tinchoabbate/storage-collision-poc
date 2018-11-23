@@ -2,7 +2,6 @@ pragma solidity ^0.4.24;
 
 contract Proxy {
     address public implementation;
-    event ProxyCalled();
 
     constructor (address implementationAddress) public {
         implementation = implementationAddress;
