@@ -1,0 +1,24 @@
+{
+  "name": "storage-collision-poc",
+  "version": "1.0.0",
+  "description": "Simple PoC to show exploit of storage collision in smart contracts using proxy patterns.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx truffle test --network=testrpc"
+  },
+  "keywords": [
+    "smart",
+    "contracts",
+    "proxy",
+    "storage",
+    "collision"
+  ],
+  "author": "Martin Abbatemarco",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^4.1.14"
+  }
+}
