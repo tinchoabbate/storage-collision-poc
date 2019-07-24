@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npx truffle test --network=testrpc"
+    "test": "npx truffle test"
   },
   "keywords": [
     "smart",
@@ -19,6 +19,8 @@
   "author": "Martin Abbatemarco",
   "license": "MIT",
   "dependencies": {
-    "truffle": "^4.1.14"
+    "chai": "4.2.0",
+    "openzeppelin-test-helpers": "0.4.0",
+    "truffle": "5.0.28"
   }
 }

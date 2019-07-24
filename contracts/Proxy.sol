@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.0;
 
 contract Proxy {
     address public implementation;
@@ -9,7 +9,7 @@ contract Proxy {
 
     function () external {
         implementation.delegatecall(
-            bytes4(keccak256(abi.encodePacked("foo()")))
+            abi.encodeWithSignature("foo()")
         );
     }
 }
